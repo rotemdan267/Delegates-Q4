@@ -32,6 +32,7 @@ namespace Delegates
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             Calc sub = delegate (int num1, int num2)
             {
                 return num1 - num2;
